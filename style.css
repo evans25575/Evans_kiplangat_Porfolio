@@ -1,0 +1,251 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #073362;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #ffcd00;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.navbar ul li a:hover {
+    color: #03eefa;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text {
+    color: #fff;
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.text span {
+    color: #03eefa;
+}
+
+.text button {
+    width: 200px;
+    height: 50px;
+    background-color: #72fa03;
+    color: #fff;
+    border: 2px solid #fa03c4;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.text button:hover {
+    background-color: #03eefa;
+}
+
+.cercle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cercle img {
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.about-container, .services-container, .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #073362;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #073362;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #073362;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #073362; /* Background color for the nav bar */
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #ffcd00; /* Yellow color for "folio" */
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 20px; /* Space between menu items */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff; /* White color for menu items */
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.navbar li a:hover {
+    color: #03eefa; /* Hover effect: change color to light blue */
+}
+/* Projects Section */
+#project {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px); /* Two columns layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #073362;
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #073362;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #03eefa;
+}

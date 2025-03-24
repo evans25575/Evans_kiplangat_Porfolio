@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">port<span>folio</span></div>
+            <ul class="navbar">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('services')">Services</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+                <li> <a href="#" onclick="showSection('project')">project</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="text">
+                <h1>Hi, I'm EVANS KIPLANGAT <br/> <span>Web Development | Data Engineering | Data Analysis | Data Science | Machine Learning | Artificial Intelligence</span></h1>
+                <a href="cv.pdf\Evans_Kiplangat_CV.pdf" download="Evans_Kiplangat_CV.pdf">
+                    <button>Download my CV (PDF)</button>
+                </a>
+            </div>
+            <div class="cercle">
+                <img src="EVANS.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="hidden">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>
+                I am a <strong>versatile and passionate technologist</strong> with expertise spanning <strong>web development, data engineering, data analysis, data science, machine learning, and artificial intelligence</strong>. With a strong foundation in both software development and data-driven decision-making, I thrive at the intersection of technology and innovation, creating solutions that are both functional and impactful.
+            </p>
+            <h3>Web Development</h3>
+            <p>
+                As a <strong>full-stack web developer</strong>, I specialize in building responsive, user-friendly, and scalable web applications. I have experience working with modern frameworks and technologies such as <strong>HTML, CSS, JavaScript, React, Node.js, and Python (Django/Flask)</strong>. My focus is on delivering seamless user experiences and robust backend systems that meet the needs of businesses and end-users alike.
+            </p>
+            <h3>Data Engineering</h3>
+            <p>
+                I design and implement <strong>efficient data pipelines</strong> to collect, process, and store large volumes of data. My expertise includes working with tools like <strong>Apache Spark, Apache Kafka, Hadoop, and cloud platforms (AWS, GCP, Azure)</strong>. I ensure data is clean, accessible, and ready for analysis, enabling organizations to make data-driven decisions.
+            </p>
+            <h3>Data Analysis</h3>
+            <p>
+                I excel at <strong>extracting actionable insights</strong> from complex datasets. Using tools like <strong>Python (Pandas, NumPy), SQL, and Tableau</strong>, I transform raw data into meaningful visualizations and reports. My analytical skills help businesses identify trends, optimize processes, and improve decision-making.
+            </p>
+            <h3>Data Science</h3>
+            <p>
+                As a <strong>data scientist</strong>, I leverage advanced statistical and machine learning techniques to solve real-world problems. I have experience in <strong>predictive modeling, clustering, and natural language processing (NLP)</strong>. My work involves building models that uncover patterns, predict outcomes, and drive innovation.
+            </p>
+            <h3>Machine Learning & AI</h3>
+            <p>
+                I am passionate about <strong>building intelligent systems</strong> that learn and adapt. My expertise includes developing <strong>machine learning models</strong> using frameworks like <strong>TensorFlow, PyTorch, and Scikit-learn</strong>. I also work on <strong>AI-driven applications</strong>, including computer vision, recommendation systems, and chatbots, to create smarter and more efficient solutions.
+            </p>
+            <h3>Why I Do What I Do</h3>
+            <p>
+                I believe in the power of technology to transform lives and businesses. Whether it’s building a website, analyzing data, or creating AI models, my goal is to deliver solutions that are <strong>innovative, efficient, and impactful</strong>. I am constantly learning and staying updated with the latest trends in technology to ensure I can tackle any challenge.
+            </p>
+            <h3>Let’s Collaborate</h3>
+            <p>
+                If you’re looking for a <strong>dedicated professional</strong> who can bridge the gap between development and data, let’s connect! I’m always excited to work on new projects and collaborate with like-minded individuals and organizations.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="hidden">
+        <div class="services-container">
+            <h2>Services</h2>
+            <ul>
+                <li><strong>Web Development</strong>: Building responsive and scalable websites and web applications.</li>
+                <li><strong>Data Engineering</strong>: Designing and implementing efficient data pipelines.</li>
+                <li><strong>Data Analysis</strong>: Extracting actionable insights from complex datasets.</li>
+                <li><strong>Data Science</strong>: Building predictive models and uncovering patterns in data.</li>
+                <li><strong>Machine Learning & AI</strong>: Developing intelligent systems and AI-driven applications.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p><strong>Phone</strong>: <a href="tel:0728324898">0728324898</a></p>
+            <p><strong>Email</strong>: <a href="mailto:kiplaevans2018@gmail.com">kiplaevans2018@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="project" class="hidden">
+    <div class="project-container">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <!-- Portfolio Project -->
+            <div class="project-item">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website showcasing my skills, projects, and contact information.</p>
+                <a href="#" target="_blank">View Live</a>
+            </div>
+
+            <!-- Supermarket Sales Analysis -->
+            <div class="project-item">
+                <h3>Supermarket Sales Analysis</h3>
+                <p>Data analysis project using Python and Pandas to analyze supermarket sales data.</p>
+                <a href="https://github.com/evans25575/Supermarket_Sales_Analysis." target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Chest X-Ray Prediction Model -->
+            <div class="project-item">
+                <h3>Chest X-Ray Prediction Model</h3>
+                <p>Data science project using machine learning to predict diseases from chest X-ray images.</p>
+                <a href="https://github.com/evans25575/CHEST-X_RAY-PREDICTION-MODEL" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Real-Time Stock Analysis Pipeline -->
+            <div class="project-item">
+                <h3>Real-Time Stock Analysis Pipeline</h3>
+                <p>Data engineering project to analyze real-time stock data using Apache Kafka and Spark.</p>
+                <a href="https://github.com/evans25575/Real-time-stock-analysis-pipeline" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Employee Performance Analysis -->
+            <div class="project-item">
+                <h3>Employee Performance Analysis</h3>
+                <p>Data analysis project to evaluate employee performance using Python and Tableau.</p>
+                <a href="https://github.com/evans25575/Employee-Performance-Analysis" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Real-Time Data Pipeline -->
+            <div class="project-item">
+                <h3>Real-Time Data Pipeline</h3>
+                <p>Data engineering project to build a real-time data pipeline using Apache Kafka and AWS.</p>
+                <a href="https://github.com/evans25575/RealTime_Data_Pipeline" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- JavaScript to toggle sections -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.add('hidden');
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
